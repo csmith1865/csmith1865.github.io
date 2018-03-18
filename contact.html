@@ -30,10 +30,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
@@ -41,8 +39,10 @@
             <li class="nav-item">
               <a class="nav-link" href="games.html">Games</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact
+                <span class="sr-only">(current)</span>
+              </a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -86,25 +86,31 @@
       <div class="form-group row">
         <label for="example-search-input" class="col-2 col-form-label">Last Name:</label>
         <div class="col-10">
-          <input name="last_name" class="form-control" type="search">
+          <input name="last_name" class="form-control" type="text">
         </div>
       </div>
       <div class="form-group row">
-        <label for="example-email-input" class="col-2 col-form-label">Email</label>
+        <label for="example-email-input" class="col-2 col-form-label">Email:</label>
         <div class="col-10">
           <input name="email" class="form-control" type="email">
         </div>
       </div>
       <div class="form-group row">
-        <label for="example-url-input" class="col-2 col-form-label">URL</label>
+        <label for="example-url-input" class="col-2 col-form-label">URL:</label>
         <div class="col-10">
-          <input name="url" class="form-control" type="url">
+          <input name="url" class="form-control" type="text" placeholder="https://">
         </div>
       </div>
       <div class="form-group row">
-        <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+        <label for="example-tel-input" class="col-2 col-form-label">Telephone:</label>
         <div class="col-10">
           <input name="telephone" class="form-control" type="tel">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-url-input" class="col-2 col-form-label">Comments:</label>
+        <div class="col-10">
+          <textarea name="comments" class="form-control" type="text"></textarea>
         </div>
       </div>
       <div class="text-center">
