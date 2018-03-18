@@ -1,49 +1,135 @@
-<form name="contactform" method="post" action="https://csmith1865tk.000webhostapp.com/php/send_form_email.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top"">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
- </td>
-</tr>
-</table>
-</form>
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Csmith1865 / Inquesition</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <span id="username" class="txt-rotate" data-period="2000" data-rotate='[ "Csmith1865", "Inquesition"]'></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="games.html">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Follow Me!
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a id="twitch" class="dropdown-item" href="https://www.twitch.tv/inquesition">Twitch</a>
+                <a id="instagram" class="dropdown-item" href="https://www.instagram.com/inquesition">Instagram</a>
+                <a id="twitter" class="dropdown-item" href="https://twitter.com/csmith1865">Twitter</a>
+                <a id="youtube" class="dropdown-item" href="https://www.youtube.com/csmith1865">Youtube</a>
+                <a id="steam" class="dropdown-item" href="http://steamcommunity.com/id/csmith1865">Steam</a>
+                <a id="facebook" class="dropdown-item" href="https://www.facebook.com/inquesition">Facebook</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Jumbotron Header -->
+      <header class="jumbotron my-4">
+        <h1 class=" text-center display-3">Send me a message!</h1>
+      </header>
+
+      <!-- Page Features -->
+      <div class="jumbotron">
+      <form name="contactform" method="post" action="https://csmith1865tk.000webhostapp.com/php/send_form_email.php">
+      <div class="form-group row">
+        <label for="example-text-input" class="col-2 col-form-label">First Name:</label>
+        <div class="col-10">
+          <input name="first_name" class="form-control" type="text">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-search-input" class="col-2 col-form-label">Last Name:</label>
+        <div class="col-10">
+          <input name="last_name" class="form-control" type="search">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-email-input" class="col-2 col-form-label">Email</label>
+        <div class="col-10">
+          <input name="email" class="form-control" type="email">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-url-input" class="col-2 col-form-label">URL</label>
+        <div class="col-10">
+          <input name="url" class="form-control" type="url">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+        <div class="col-10">
+          <input name="telephone" class="form-control" type="tel">
+        </div>
+      </div>
+      <div class="text-center">
+      <input class="text-center btn btn-primary" type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer id="footer" class="">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/typingcarousel.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

@@ -30,8 +30,8 @@ footer {
   .row.content {height:auto;}
 }
 
-span#username {
-  color: grey;
+#username {
+  color: #f1f1f1;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 200;
@@ -40,16 +40,69 @@ span#username {
   font-size: 2em;
 }
 
-#twitch:hover{
+#twitch:hover {
   background: #4b367c;
   color: #d3cae8;
 }
 
-#instagram:hover{
+#instagram:hover {
   color: #000;
 }
 
 #twitter:hover {
   background: #1B95E0;
   color: #fff;
+}
+
+#youtube:hover {
+  background: #ff0000;
+  color: #fff;
+}
+
+#steam:hover {
+  background: #1b2838;
+  color: #fff;
+}
+
+#facebook:hover {
+  background: #4267b2;
+  color: #fff;
+}
+
+body {
+  background: #1e392a;
+}
+
+nav.navbar {
+  background: #3cc47c;
+}
+
+#footer {
+  background: #3cc47c;
+}
+
+.btn-primary {
+  background-color: #e9c893;
+  border-color: #e9c893;
+}
+
+.footer-card {
+  border-top: 1px solid #e9c893;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e9c893;
+  background-color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #856d47;
+  border-color: #856d47;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.dropdown-item {
+  color: #3cc47c;
 }
