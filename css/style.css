@@ -45,6 +45,11 @@ span.username {
   font-family: 'Great Vibes', cursive;
 }
 
+span.index-username {
+  font-size: 1.2em;
+  font-family: 'Great Vibes', cursive;
+}
+
 #twitch:hover {
   background: #4b367c;
   color: #d3cae8;
