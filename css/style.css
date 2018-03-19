@@ -40,6 +40,10 @@ footer {
   font-size: 2em;
 }
 
+span.username {
+  font-size: 0.7em;
+}
+
 #twitch:hover {
   background: #4b367c;
   color: #d3cae8;
