@@ -24,6 +24,18 @@ ErrorDocument 404 /404.html
 
 Options -MultiViews
 
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.example\.com [NC]
-RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
+# ------------------------------------------------------------------------------
+# | Deny Access to Hidden Files and Directories
+# ------------------------------------------------------------------------------
+
+RewriteCond %{SCRIPT_FILENAME} -d [OR]
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule "(^|/)\." - [F]
+
+# ------------------------------------------------------------------------------
+# | Alias "Clean" URLs
+# ------------------------------------------------------------------------------
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.html [NC,L]
