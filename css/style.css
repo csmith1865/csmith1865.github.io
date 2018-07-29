@@ -79,6 +79,11 @@ span.index-username {
   color: #fff;
 }
 
+#blogger:hover {
+  background: #ff5722;
+  color: #fff;
+}
+
 body {
   background: #1e392a;
 }
