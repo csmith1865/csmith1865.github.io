@@ -55,6 +55,11 @@ span.index-username {
   color: #d3cae8;
 }
 
+#store:hover {
+  background: #00ff00;
+  color: #008c00;
+}
+
 #instagram:hover {
   color: #000;
 }
