@@ -52,6 +52,15 @@
       "url" : "https://www.sumisu.tk/"
     }
     </script>
+    <script>
+      function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+    </script>
   </head>
 
   <body>
@@ -143,10 +152,10 @@
             <img class="card-img-top" src="http://placehold.it/500x325" alt="">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+              <p id="p1" class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
+              <button onclick="copyToClipboard('#p1')" class="btn btn-primary">Find Out More!</button>
             </div>
           </div>
         </div>
