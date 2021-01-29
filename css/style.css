@@ -74,6 +74,11 @@ span.index-username {
   font-family: 'Great Vibes', cursive;
 }
 
+#home:hover {
+  color: #9fef00;
+}
+
+/*
 #twitch:hover {
   background: #4b367c;
   color: #d3cae8;
@@ -112,6 +117,7 @@ span.index-username {
   background: #ff5722;
   color: #fff;
 }
+*/
 
 body {
   background-color: #141d2b;
@@ -150,6 +156,11 @@ nav.navbar {
 
 .dropdown-item {
   color: #3cc47c;
+}
+
+.dropdown-menu {
+  background: #111927;
+  color: #fff;
 }
 
 .navbar-nav {
