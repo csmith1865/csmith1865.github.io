@@ -1,3 +1,17 @@
+/* Remove the cards background colour and change card text color */
+.card {
+  background-color: transparent;
+  color: #9acc14;
+
+/* Change Card Footer to Border */
+  border-top: 2px solid rgba(154,204,20,1);
+  
+  
+/* Change the <code> color and background color */
+.card-text:last-child {
+  background-color: #000;
+  color: #9fef00
+
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
@@ -90,20 +104,20 @@ span.index-username {
 }
 
 body {
-  background: #1e392a;
+  background: #141d2b;
 }
 
 nav.navbar {
-  background: #3cc47c;
+  background: #273344;
 }
 
 #footer {
-  background: #3cc47c;
+  background: #273344;
 }
 
 .btn-primary {
-  background-color: #e9c893;
-  border-color: #e9c893;
+  background-color: #9fef00;
+  border-color: #9fef00;
 }
 
 .footer-card {
@@ -115,12 +129,13 @@ nav.navbar {
 }
 
 .btn-primary:hover {
-  background-color: #856d47;
-  border-color: #856d47;
+  background-color: #86c900;
+  border-color: #7dbc00;
 }
 
 .jumbotron {
-  background-color: #fff;
+  background-color: transparent;
+  color: #9acc14;
 }
 
 .dropdown-item {
