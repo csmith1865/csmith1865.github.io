@@ -2,6 +2,7 @@
 .card {
   background-color: transparent;
   color: #9acc14;
+}
 
 /* Change Card Footer to Border */
 
@@ -11,6 +12,7 @@
 .card-text:last-child {
   background-color: #000;
   color: #9fef00;
+}
 
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
