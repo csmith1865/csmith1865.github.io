@@ -10,7 +10,7 @@
 /* Change the <code> color and background color */
 .card-text:last-child {
   background-color: #000;
-  color: #9fef00
+  color: #9fef00;
 
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
