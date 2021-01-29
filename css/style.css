@@ -4,7 +4,7 @@
   color: #9acc14;
 
 /* Change Card Footer to Border */
-  border-top: 2px solid rgba(154,204,20,1);
+
   
   
 /* Change the <code> color and background color */
@@ -125,7 +125,8 @@ nav.navbar {
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: #e9c893;
-  background-color: #fff;
+  background-color: transparent;
+  border-top: 2px solid rgba(154,204,20,1);
 }
 
 .btn-primary:hover {
