@@ -76,6 +76,7 @@ span.index-username {
 
 #home:hover {
   color: #9fef00;
+  background-color: #111927;
 }
 
 /*
@@ -159,8 +160,7 @@ nav.navbar {
 }
 
 .dropdown-menu {
-  background: #111927;
-  color: #fff;
+  background-color: #111927;
 }
 
 .navbar-nav {
