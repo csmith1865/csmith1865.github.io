@@ -5,8 +5,9 @@
 }
 
 /* Change Card Footer to Border */
-
-  
+.card-footer {
+  border-top: 2px solid #9acc14;
+}
   
 /* Change the <code> color and background color */
 .card-text:last-child {
@@ -128,7 +129,6 @@ nav.navbar {
   border-top-style: solid;
   border-top-color: #e9c893;
   background-color: transparent;
-  border-top: 2px solid rgba(154,204,20,1);
 }
 
 .btn-primary:hover {
