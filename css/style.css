@@ -89,9 +89,10 @@ span.index-username {
   background: #3CC47C;
   color: #008c00;
 }
+*/
 
 #instagram:hover {
-  color: #000;
+  color: #E1306C;
 }
 
 #twitter:hover {
@@ -109,6 +110,7 @@ span.index-username {
   color: #fff;
 }
 
+/*
 #facebook:hover {
   background: #4267b2;
   color: #fff;
